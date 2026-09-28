@@ -1,12 +1,33 @@
-import { Github, Instagram, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { navigation } from "../data/navigation";
 
 const socials = [
-  { label: "Instagram", href: "#", icon: Instagram },
-  { label: "LinkedIn", href: "#", icon: Linkedin },
-  { label: "GitHub", href: "#", icon: Github },
-  { label: "Email", href: "mailto:ieee@example.com", icon: Mail },
+  {
+    label: "Instagram",
+    href: "#",
+    icon: FaInstagram,
+  },
+  {
+    label: "LinkedIn",
+    href: "#",
+    icon: FaLinkedinIn,
+  },
+  {
+    label: "GitHub",
+    href: "#",
+    icon: FaGithub,
+  },
+  {
+    label: "Email",
+    href: "mailto:ieee@example.com",
+    icon: Mail,
+  },
 ];
 
 export default function Footer() {
