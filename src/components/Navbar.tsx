@@ -37,11 +37,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenRegisterModal }) => {
 
   const navLinks = [
     { id: 'hero', label: 'Home' },
-    { id: 'timeline', label: '8-Day Schedule' },
+    { id: 'timeline', label: '7-Day Schedule' },
     { id: 'events', label: 'Events' },
-    { id: 'art-gallery', label: 'Art Gallery', isSpecial: true },
+    { id: 'teams', label: 'Teams', isSpecial: true },
     { id: 'about', label: 'About' },
-    { id: 'team', label: 'Leadership' },
+    { id: 'art-gallery', label: 'Leadership' },
     { id: 'contact', label: 'Contact' },
   ];
 
