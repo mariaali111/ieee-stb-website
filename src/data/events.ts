@@ -11,19 +11,19 @@ export const PLACEHOLDER_EVENTS: EventModel[] = [
     venue: 'Main Campus Auditorium / Hybrid Stream',
     description: 'Treasure Hunt',
     poster: 'src/assets/treasure-hunt.jpeg',
-    organizer: '[Placeholder] IEEE Technical Chapter Lead',
+    organizer: 'IEEE Technical Chapter Lead',
     eligibility: 'Open to all registered university students',
     registrationDeadline: 'October 10, 2026',
     registrationLink: '#register',
     isArtEvent: false,
-    prizes: '[Placeholder] Certificates + Special Technical Swag',
+    prizes: 'Certificates + Special Technical Swag',
     rules: [
       '[Placeholder] Rule 1: Attendees must arrive 15 minutes prior to session commencement.',
       '[Placeholder] Rule 2: Valid Student ID card is mandatory for venue entrance.',
       '[Placeholder] Rule 3: Interactive Q&A requires registration via the official portal.'
     ],
     contactPerson: {
-      name: '[Placeholder] Student Convener 1',
+      name: 'Student Convener 1',
       role: 'Event Co-Ordinator',
       phone: '+91 98765 00001',
       email: 'day1.coordinator@university.edu'
@@ -37,7 +37,7 @@ export const PLACEHOLDER_EVENTS: EventModel[] = [
     date: 'October 05, 2026',
     time: '09:00 AM - 09:00 PM IST',
     venue: '[Placeholder] Computer Science Labs & Online Judge',
-    description: 'An intense 12-hour speed coding and algorithmic optimization challenge testing problem-solving under real-time constraints.',
+    description: 'Chess Tournament',
     poster: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80',
     organizer: '[Placeholder] IEEE Computer Society Student Chapter',
     eligibility: 'Solo participants or teams up to 3 members',

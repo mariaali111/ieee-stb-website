@@ -36,7 +36,7 @@ export const Hero: React.FC<HeroProps> = ({
 
         {/* Hero Title */}
         <h1 className="font-display font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white uppercase leading-none drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)]">
-          IEEE <span className="text-transparent bg-clip-text bg-gradient-to-r from-crimson-400 via-crimson-600 to-crimson-800">WEEK</span> 2026
+          IEEE <span className="bg-clip-text bg-gradient-to-r from-crimson-400 via-crimson-600 to-crimson-800" >WEEK</span> 2026
         </h1>
 
         {/* Tagline */}
@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({
 
         {/* Hero Subtitle Narrative */}
         <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base text-gray-400 font-sans leading-relaxed">
-          {SITE_CONFIG.heroSubtitle}. Join us across <strong className="text-white">8 consecutive days</strong> for <strong className="text-white">8 major events</strong>, hackathons, robotics challenges, and digital art exhibitions.
+          {SITE_CONFIG.heroSubtitle}. Join us across <strong className="text-white">7 consecutive days</strong> for <strong className="text-white">7 major events</strong>, hackathons, robotics challenges, and digital art exhibitions.
         </p>
 
         {/* 8-Day Countdown Timer Component */}
@@ -67,7 +67,7 @@ export const Hero: React.FC<HeroProps> = ({
             className="px-6 py-3.5 rounded-xl font-display font-semibold uppercase tracking-wider text-sm text-gray-200 bg-cosmic-900/80 hover:bg-cosmic-800 border border-white/15 hover:border-crimson-600/50 hover:text-white transition-all duration-300 flex items-center gap-2 backdrop-blur-md"
           >
             <Terminal className="w-4 h-4 text-crimson-400" />
-            Explore 8-Day Timeline
+            Explore 7-Day Timeline
           </button>
 
           <button

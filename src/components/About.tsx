@@ -12,7 +12,7 @@ export const About: React.FC = () => {
     {
       icon: Flame,
       title: 'Competitive Mastery',
-      desc: '8 intense days of algorithmic hackathons, battle arenas, hardware challenges, and creative visual showcases.',
+      desc: '7 intense days of algorithmic hackathons, battle arenas, hardware challenges, and creative visual showcases.',
     },
     {
       icon: Target,
@@ -64,7 +64,7 @@ export const About: React.FC = () => {
               </div>
               <div className="p-3 rounded-lg bg-cosmic-900 border border-white/10">
                 <span className="text-crimson-400 font-bold block text-sm">FLAGSHIP STATUS</span>
-                <span className="text-gray-400">8 Days • 8 Events</span>
+                <span className="text-gray-400">7 Days • 7 Events</span>
               </div>
             </div>
           </div>

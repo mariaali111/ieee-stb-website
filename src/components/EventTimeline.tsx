@@ -26,7 +26,6 @@ export const EventTimeline: React.FC<EventTimelineProps> = ({
     'Creative & Art',
     'Workshop',
     'Gaming',
-    'Paper Presentation',
   ];
 
   // Compute category counts
@@ -52,7 +51,7 @@ export const EventTimeline: React.FC<EventTimelineProps> = ({
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cosmic-900 border border-crimson-600/40 text-crimson-400 font-mono text-xs uppercase tracking-widest mb-3">
             <Calendar className="w-3.5 h-3.5 text-crimson-500" />
-            <span>8 Days • 8 Major Events</span>
+            <span>7 Days • 7 Major Events</span>
           </div>
           <h2 className="font-display font-extrabold text-3xl sm:text-5xl text-white uppercase tracking-tight">
             IEEE WEEK <span className="text-crimson-500">TIMELINE</span>
@@ -73,10 +72,10 @@ export const EventTimeline: React.FC<EventTimelineProps> = ({
                   : 'bg-cosmic-900/80 text-gray-400 hover:text-white border border-white/10'
               }`}
             >
-              All 8 Days
+              All 7 Days
             </button>
 
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((dayNum) => {
+            {[1, 2, 3, 4, 5, 6, 7].map((dayNum) => {
               const dayEvent = events.find((e) => e.day === dayNum);
               const isActive = selectedDay === dayNum;
 

@@ -39,9 +39,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenRegisterModal }) => {
     { id: 'hero', label: 'Home' },
     { id: 'timeline', label: '7-Day Schedule' },
     { id: 'events', label: 'Events' },
-    { id: 'teams', label: 'Teams', isSpecial: true },
+    { id: 'art-gallery', label: 'Art Gallery', isSpecial: true },
     { id: 'about', label: 'About' },
-    { id: 'art-gallery', label: 'Leadership' },
+    { id: 'team', label: 'Leadership' },
     { id: 'contact', label: 'Contact' },
   ];
 
@@ -68,10 +68,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenRegisterModal }) => {
           className="flex items-center gap-3 group text-left focus:outline-none focus:ring-2 focus:ring-crimson-600 rounded-lg p-1"
           aria-label="IEEE Week 2026 Home"
         >
-          <div className="relative w-10 h-10 rounded-lg bg-gradient-to-br from-crimson-900 via-crimson-700 to-black border border-crimson-600/50 flex items-center justify-center shadow-[0_0_15px_rgba(220,38,38,0.4)] group-hover:shadow-[0_0_25px_rgba(220,38,38,0.8)] transition-all">
-            <Shield className="w-5 h-5 text-white transform group-hover:scale-110 transition-transform" />
-            <div className="absolute inset-0 rounded-lg bg-crimson-600/20 animate-pulse opacity-50"></div>
-          </div>
+
+          <img className="relative w-40 h-10  flex items-center justify-center shadow-[0_0_15px_rgba(220,38,38,0.4)] group-hover:shadow-[0_0_25px_rgba(220,38,38,0.8)] transition-all"src='src/assets/Logos-removebg.png'></img>
           <div>
             <div className="font-display font-extrabold tracking-wider text-lg sm:text-xl text-white flex items-center gap-1.5 leading-none">
               IEEE <span className="text-crimson-500 font-black">WEEK</span>

@@ -95,5 +95,45 @@ export const TEAM_MEMBERS: TeamMember[] = [
     department: 'Information Technology',
     email: 'logistics@university.edu',
     quote: 'Connecting participants, sponsors, and campus delegates.'
+  },
+   {
+    id: 'team-10',
+    name: 'Kunal Varshney',
+    role: 'Technical Core',
+    category: 'Technical Team',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    department: 'Information Technology',
+    email: 'logistics@university.edu',
+    quote: 'Connecting participants, sponsors, and campus delegates.'
+  },
+   {
+    id: 'team-11',
+    name: 'Tanishka Singh',
+    role: 'Technical Core',
+    category: 'Technical Team',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    department: 'Information Technology',
+    email: 'logistics@university.edu',
+    quote: 'Connecting participants, sponsors, and campus delegates.'
+  },
+   {
+    id: 'team-12',
+    name: 'Zainul Abideen',
+    role: 'Technical Core',
+    category: 'Technical Team',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    department: 'Information Technology',
+    email: 'logistics@university.edu',
+    quote: 'Connecting participants, sponsors, and campus delegates.'
+  },
+   {
+    id: 'team-13',
+    name: 'Ritika Gupta',
+    role: 'Workshop & Project Cell',
+    category: 'Workshop & Project Cell',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80',
+    department: 'Information Technology',
+    email: 'logistics@university.edu',
+    quote: 'Connecting participants, sponsors, and campus delegates.'
   }
 ];

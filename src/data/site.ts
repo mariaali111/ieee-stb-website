@@ -6,8 +6,7 @@ export const SITE_CONFIG = {
   startDate: "2026-10-04T09:00:00+05:30", // Event start time
   endDate: "2026-10-12T18:00:00+05:30",
   venue: "Electrical Department ZHCET AMU",
-  contactEmail: "ieee.sb.contact@university.edu",
-  contactPhone: "+91 98765 43210",
+  contactPhone: "+91 89055 95240",
   socials: {
     instagram: "https://www.instagram.com/ieeeamu/",
     linkedin: "https://in.linkedin.com/company/ieee-amu-student-branch",
