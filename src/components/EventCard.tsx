@@ -123,7 +123,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event, onSelectEvent, onRe
                 : 'bg-white/10 hover:bg-white/20 text-white border border-white/20'
             }`}
           >
-            Register
+            Register Now
           </button>
         </div>
       </div>

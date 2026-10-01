@@ -2,7 +2,7 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
-  category: 'Lead Core' | 'Technical Team' | 'Workshop and Project Cell' | 'Editorial' | 'Graphics Core' | 'Event Management' | 'Public Relations' | 'Volunteer Corps';
+  category: 'Lead Core' | 'Technical Team' | 'Workshop & Project Cell' | 'Editorial' | 'Graphics Core' | 'Event Management' | 'Public Relations' | 'Volunteer Corps';
   avatar: string;
   department: string;
   linkedin?: string;

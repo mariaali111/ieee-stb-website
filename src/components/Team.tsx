@@ -4,12 +4,12 @@ import { TeamMember } from '../types/team';
 import { Users, Linkedin, Github, Mail, Quote } from 'lucide-react';
 
 export const Team: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<string>('All');
+  const [activeCategory, setActiveCategory] = useState<string>('Lead Core');
 
-  const categories = ['All', 'Lead Core', 'Technical Team', 'Creative & Art', 'Operations', 'Faculty Advisor'];
+  const categories = ['Lead Core', 'Technical Team', 'Workshop & Project Team', 'Editorial Team', 'Graphics Team', 'Event Management','PR Team',"Volunteer's"];
 
   const filteredTeam = TEAM_MEMBERS.filter(
-    (member) => activeCategory === 'All' || member.category === activeCategory
+    (member) => activeCategory === 'Lead Core' || member.category === activeCategory
   );
 
   return (
