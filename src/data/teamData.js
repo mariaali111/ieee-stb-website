@@ -24,7 +24,7 @@ export const teams = [
   {
     name: "Technical Core",
     lead: "Maria Ali",
-    members: ["Zainab Khan", "Ashutosh Gautam", "Tanishka Singh", "Kunal Varshney"],
+    members: ["Kunal Varshney", "Zainab Khan", "Ashutosh Gautam", "Tanishka Singh", "Zainul Abideen"],
   },
   {
     name: "Workshop and Project Cell",
@@ -60,7 +60,7 @@ export const teams = [
     members: [
       "Astha Mittal",
       "Saliha Khan",
-      "Adceeba Malik",
+      "Adeeba Malik",
       "Ayesha Mazhar",
     ],
   },
@@ -70,7 +70,6 @@ export const teams = [
     members: [
       "Md Mubashir",
       "Tanishka Bansal",
-      "Zainul Abideen",
       "Bhoomi Varshney",
     ],
   },
