@@ -182,6 +182,7 @@ export const events = [
     description:
       "A gaming tournament included in the TECHFIEEEEST programme.",
     status: "Schedule announced",
+    image: "/events/gaming-tournament.png",
     details: [
       "Date: 9 October 2026",
       "Venue: To be confirmed",
