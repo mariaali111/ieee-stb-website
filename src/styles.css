@@ -1516,3 +1516,32 @@ section[id] { scroll-margin-top: 92px; }
   }
 
 }
+/* ============================================================
+   GALLERY GRID (used once images are added in src/data/gallery.js)
+============================================================ */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 32px;
+  width: 100%;
+}
+.gallery-item {
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  background: transparent;
+  cursor: pointer;
+  aspect-ratio: 4 / 3;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.04);
+}

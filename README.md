@@ -26,10 +26,35 @@ npm.cmd run dev
 
 Open the local Vite URL shown in the terminal (normally `http://localhost:5173/`).
 
-## Editable data
+## Project structure (one file per tab)
 
-- `src/data/stage2Data.js` — About IEEE content, IEEE communities, announcements, events, TECHFIEEEEST schedule and social links.
-- `src/data/teamData.js` — leadership, cell leads and team members.
+```
+src/
+├── main.jsx                 # app entry (just mounts <App />)
+├── App.jsx                  # page layout + navigation state
+├── styles.css
+├── config/navItems.js       # tab order / links
+├── utils/profileImages.js   # loads team photos from src/profile-pic
+├── components/              # Navbar, EventModal, ImageLightbox, SocialBrandIcon, AppErrorBoundary
+├── sections/                # one component per tab
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Team.jsx
+│   ├── Events.jsx
+│   ├── Techfieeest26.jsx    # TECHFIEEEEST ’26
+│   ├── Membership.jsx
+│   ├── Gallery.jsx
+│   └── Contact.jsx
+└── data/                    # one data file per tab (edit content here)
+    ├── home.js              # hero text + announcements
+    ├── about.js             # About IEEE + IEEE communities
+    ├── team.js              # leadership, cell leads, members
+    ├── events.js            # event cards
+    ├── techfieeest26.js     # TECHFIEEEEST ’26 text + schedule
+    ├── membership.js
+    ├── gallery.js           # add gallery images to the `images` array
+    └── contact.js           # contact text + social links
+```
 
 ## Notes
 
