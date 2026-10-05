@@ -1,4 +1,4 @@
-export const galleryData = {
+/*export const galleryData = {
   eyebrow: "GALLERY",
   title: "Moments from the branch.",
   text:
@@ -6,3 +6,4 @@ export const galleryData = {
   // Add images here later, e.g. { src: "/gallery/photo-1.jpg", alt: "Description" }
   images: [],
 };
+*/

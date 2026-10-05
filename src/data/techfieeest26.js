@@ -3,7 +3,7 @@ export const techfieeestData = {
   title: "IEEE Week at ZHCET.",
   text:
     "A week of technical, creative and community activities. The schedule below is kept editable so confirmed venues and details can be updated later.",
-  bannerSrc: "/branding/techfieeesta-banner.jpg",
+  bannerSrc: "/branding/techfieeesta-banner.jpeg",
   bannerAlt: "IEEE Studios TECHFIEEEESTA banner",
 };
 

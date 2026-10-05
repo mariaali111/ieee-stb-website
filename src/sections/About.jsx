@@ -29,7 +29,7 @@ export default function About() {
             {aboutData.mission.map((item, index) => (
               <div className="mission-item" key={item}>
                 <span>0{index + 1}</span>
-                <p>{item}</p>
+                <h3>{item}</h3>
               </div>
             ))}
           </div>
@@ -49,7 +49,7 @@ export default function About() {
       <div className="community-grid">
         {ieeeCommunities.map((community) => (
           <article className="community-card" key={community.title}>
-            <div className="community-badge">{community.short}</div>
+            <img src={community.short} alt={community.title} className="item-logo"/>
             <h3>{community.title}</h3>
             <p>{community.text}</p>
 

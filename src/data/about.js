@@ -1,3 +1,8 @@
+import cslogo from "../assets/ieee-cs.png";
+import raslogo from "../assets/ieee-ras.png";
+import sightlogo from "../assets/ieee-sight.jpeg";
+import wieLogo from "../assets/ieee-wie.jpeg";
+
 export const aboutData = {
   eyebrow: "ABOUT IEEE",
   title: "A global professional community for engineering and technology.",
@@ -16,26 +21,26 @@ export const aboutData = {
 
 export const ieeeCommunities = [
   {
-    short: "CS",
+    short: cslogo,
     title: "IEEE Computer Society",
     text:
       "A community focused on computing, software, computer engineering and the technologies shaping modern digital systems.",
   },
   {
-    short: "WIE",
+    short: wieLogo,
     title: "IEEE Women in Engineering",
     text:
       "A global IEEE community supporting women in engineering, technology, leadership, education and professional growth.",
     link: "https://www.instagram.com/ieee_wie_zhcetamu/",
   },
   {
-    short: "SIGHT",
+    short: sightlogo,
     title: "IEEE SIGHT",
     text:
       "IEEE's humanitarian technology community, bringing people together to apply engineering and technology toward social and sustainable development challenges.",
   },
   {
-    short: "RAS",
+    short: raslogo,
     title: "IEEE Robotics and Automation Society",
     text:
       "A technical community centered on robotics, automation, intelligent systems and the technologies that enable them.",

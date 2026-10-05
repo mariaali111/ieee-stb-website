@@ -4,8 +4,8 @@ export const navItems = [
   ["About", "#about"],
   ["Team", "#team"],
   ["Events", "#events"],
-  ["TECHFIEEEEST ’26", "#ieee-week"],
+  ["TECHFIEEEESTA ’26", "#ieee-week"],
   ["Membership", "#membership"],
-  ["Gallery", "#gallery"],
+ // ["Gallery", "#gallery"],
   ["Contact", "#contact"],
 ];

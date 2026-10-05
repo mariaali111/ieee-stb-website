@@ -12,7 +12,7 @@ import Team from "./sections/Team";
 import Events from "./sections/Events";
 import Techfieeest26 from "./sections/Techfieeest26";
 import Membership from "./sections/Membership";
-import Gallery from "./sections/Gallery";
+//import Gallery from "./sections/Gallery";
 import Contact from "./sections/Contact";
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
   const [activeSection, setActiveSection] = useState(window.location.hash || "#home");
 
   // Active nav tab follows the actual section positions while scrolling
-  useEffect(() => {
+  /*useEffect(() => {
     const updateActiveSection = () => {
       const marker = window.scrollY + 120;
       const sections = navItems
@@ -46,7 +46,7 @@ export default function App() {
       window.removeEventListener("resize", updateActiveSection);
       window.removeEventListener("hashchange", updateActiveSection);
     };
-  }, []);
+  }, []);*/
 
   const goTo = (href) => {
     setActiveSection(href);
@@ -68,7 +68,7 @@ export default function App() {
         <Events onSelectEvent={setSelectedEvent} />
         <Techfieeest26 />
         <Membership />
-        <Gallery onOpenImage={setLightboxImage} />
+        {/*Gallery onOpenImage={setLightboxImage}*/}
         <Contact />
       </main>
 

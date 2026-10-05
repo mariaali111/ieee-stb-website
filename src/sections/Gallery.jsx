@@ -1,4 +1,4 @@
-import { galleryData } from "../data/gallery";
+/*import { galleryData } from "../data/gallery";
 
 export default function Gallery({ onOpenImage }) {
   return (
@@ -24,3 +24,4 @@ export default function Gallery({ onOpenImage }) {
     </section>
   );
 }
+  */
