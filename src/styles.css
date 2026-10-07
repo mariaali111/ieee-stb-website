@@ -390,7 +390,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .section-heading h2,
 .next-section h2 {
   margin: 0;
-  font-size: clamp(42px, 6vw, 78px);
+  font-size: clamp(42px, 5vw, 64px);
   line-height: .98;
   letter-spacing: -.05em;
 }
@@ -404,8 +404,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .about-main,
 .mission-card,
-.vision-card,
-.info-note {
+.vision-card {
   border: 1px solid rgba(156,163,175,.14);
   background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
 }
@@ -472,18 +471,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   line-height: 1.6;
   font-size: 14px;
 }
-
-.info-note {
-  margin-top: 18px;
-  padding: 17px 20px;
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-  color: #8e9991;
-}
-
-.info-note svg { flex: 0 0 auto; color: #4ade80; margin-top: 2px; }
-.info-note p { margin: 0; font-size: 12px; line-height: 1.6; }
 
 .split-heading {
   display: flex;
@@ -1383,7 +1370,7 @@ section[id] { scroll-margin-top: 92px; }
   margin-bottom: 22px;
 }
 
-.TECHFIEEEESTA-banner {
+.techfieeesta-banner {
   display: block;
   width: 100%;
   max-width: 720px;
@@ -1409,7 +1396,7 @@ section[id] { scroll-margin-top: 92px; }
     height: 50px;
     flex-basis: 138px;
   }
-  .TECHFIEEEESTA-banner {
+  .techfieeesta-banner {
     max-width: 100%;
     height: auto;
     aspect-ratio: 2.4 / 1;
@@ -1518,8 +1505,8 @@ section[id] { scroll-margin-top: 92px; }
 }
 /* ieee-community logos in about section */
 .item-logo {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 

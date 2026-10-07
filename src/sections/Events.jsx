@@ -11,7 +11,7 @@ export default function Events({ onSelectEvent }) {
         </div>
 
         <p className="section-intro">
-          Join us for a week of engaging events, technical activities, and exciting opportunities as we celebrate IEEE Week.
+          Events conducted by IEEE AMU throughout the year.        
         </p>
       </div>
 

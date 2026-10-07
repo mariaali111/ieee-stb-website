@@ -7,7 +7,7 @@ export const aboutData = {
   eyebrow: "ABOUT IEEE",
   title: "A global professional community for engineering and technology.",
   intro:
-    "IEEE — the Institute of Electrical and Electronics Engineers — is a professional home for the engineering and technology community worldwide. IEEE and its members work to advance technological innovation and excellence for the benefit of humanity through publications, conferences, standards, education and professional activities.",
+    "IEEE — the Institute of Electrical and Electronics Engineers — is a professional home for the engineering and technology community worldwide. IEEE and its members inspire a global community to innovate for a better tomorrow through highly cited publications, conferences, technology standards, and professional and educational activities.",
   vision:
     "A network of students and volunteers using technology, collaboration and engineering knowledge to create meaningful impact and support sustainable development.",
   mission: [
@@ -15,8 +15,6 @@ export const aboutData = {
     "Help students learn, connect and grow through technical and professional communities.",
     "Encourage students to use technology for sustainable development and meaningful community impact.",
   ],
-  note:
-    "IEEE brings together students, professionals, technical societies and local communities so members can learn, collaborate and contribute beyond the classroom.",
 };
 
 export const ieeeCommunities = [

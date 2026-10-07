@@ -36,11 +36,6 @@ export default function About() {
         </div>
       </div>
 
-      <div className="info-note">
-        <CheckCircle2 size={18} />
-        <p>{aboutData.note}</p>
-      </div>
-
       <div className="about-subheading">
         <p className="eyebrow">IEEE COMMUNITIES</p>
         <h3>Different communities. One IEEE ecosystem.</h3>
