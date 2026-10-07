@@ -6,6 +6,14 @@ export const branchInfo = {
 export const leadership = [
   { role: "Branch Counsellor", name: "Dr. Mohd Faisal Jalil" },
   { role: "Chairperson", name: "Saqib Ali" },
+  { role: "Vice Chairperson", name: "Mohd Usman"},
+  { role: "Secretary ", name: "Mohammed Ahmed Majid" },
+  { role: "Secretary", name: "Alisha Hasan" },
+  { role: "Secretary", name: "Danish Iqbal"},
+  { role: "Joint Secretary", name: "Riiya Gupta" },
+  { role: "Joint Secretary", name: "Sadia Peerzada"},
+  { role: "Treasurer", name: "Mustafa Rais" },
+  { role: "PG Representative", name: "Arsalaan Waheed Ansari"},
 ];
 
 export const cellLeads = [
@@ -24,7 +32,12 @@ export const teams = [
   {
     name: "Technical Core",
     lead: "Maria Ali",
-    members: ["Zainab Khan", "Kunal Varshney","Ashutosh Gautam", "Tanishka Singh"],
+    members: [
+      "Zainab Khan", 
+      "Kunal Varshney",
+      "Ashutosh Gautam", 
+      "Tanishka Singh"
+    ],
   },
   {
     name: "Workshop and Project Cell",

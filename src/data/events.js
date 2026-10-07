@@ -1,7 +1,7 @@
 export const events = [
   {
     number: "01",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Treasure Hunt: Pirates’ Quest",
     date: "04 October 2026",
     location: "ZHCET Campus",
@@ -21,7 +21,7 @@ export const events = [
   },
   {
     number: "02",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Chess Tournament",
     date: "04 October 2026",
     location: "Venue to be confirmed",
@@ -39,7 +39,7 @@ export const events = [
   },
   {
     number: "03",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Hack-IEEE Hackathon — 48 Hours",
     date: "06–08 October 2026",
     location: "ZHCET Auditorium & Labs",
@@ -57,7 +57,7 @@ export const events = [
   },
   {
     number: "04",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Quizverse",
     date: "07 October 2026",
     location: "Venue to be confirmed",
@@ -75,7 +75,7 @@ export const events = [
   },
   {
     number: "05",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Pitch x Stick",
     date: "07 October 2026",
     location: "Venue to be confirmed",
@@ -92,7 +92,7 @@ export const events = [
   },
   {
     number: "06",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Heritage Walk + Pitch Competition",
     date: "08 October 2026",
     location: "Venue to be confirmed",
@@ -107,12 +107,12 @@ export const events = [
   },
   {
     number: "07",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Gaming Tournament",
     date: "09 October 2026",
     location: "Venue to be confirmed",
     description:
-      "A gaming tournament included in the TECHFIEEEEST programme.",
+      "A gaming tournament included in the TECHFIEEEESTA programme.",
     status: "Schedule announced",
     image: "/events/gaming-tournament.png",
     details: [
@@ -123,7 +123,7 @@ export const events = [
   },
   {
     number: "08",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Build Your Own Game Console",
     date: "11 October 2026",
     location: "Venue to be confirmed",
@@ -134,18 +134,18 @@ export const events = [
     details: [
       "Date: 11 October 2026",
       "Venue: To be confirmed",
-      "Organised by: Zeeshan Alam & Riya Gupta",
+      "Organised by: Zeeshan Alam & Riiya Gupta",
       "Registration: scan the QR code on the poster.",
     ],
   },
   {
     number: "09",
-    category: "TECHFIEEEEST '26",
+    category: "TECHFIEEEESTA '26",
     title: "Felicitation Ceremony",
     date: "12 October 2026",
     location: "Venue to be confirmed",
     description:
-      "The closing felicitation ceremony of the TECHFIEEEEST programme.",
+      "The closing felicitation ceremony of the TECHFIEEEESTA programme.",
     status: "Schedule announced",
     details: [
       "Date: 12 October 2026",

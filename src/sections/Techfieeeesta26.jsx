@@ -1,17 +1,17 @@
-import { techfieeestData, techFiestaSchedule } from "../data/techfieeest26";
+import { techfieeeestaData, techFiestaSchedule } from "../data/techfieeeesta26";
 
-export default function Techfieeest26() {
+export default function Techfieeeesta26() {
   return (
     <section className="ieee-preview section-block" id="ieee-week">
       <div className="ieee-preview-copy">
-        <p className="eyebrow">{techfieeestData.eyebrow}</p>
-        <h2>{techfieeestData.title}</h2>
-        <p>{techfieeestData.text}</p>
+        <p className="eyebrow">{techfieeeestaData.eyebrow}</p>
+        <h2>{techfieeeestaData.title}</h2>
+        <p>{techfieeeestaData.text}</p>
 
         <img
-          className="techfieeesta-banner"
-          src={techfieeestData.bannerSrc}
-          alt={techfieeestData.bannerAlt}
+          className="TECHFIEEEESTA-banner"
+          src={techfieeeestaData.bannerSrc}
+          alt={techfieeeestaData.bannerAlt}
         />
       </div>
 

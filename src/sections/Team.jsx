@@ -39,7 +39,7 @@ export default function Team() {
       {/* LEADERSHIP */}
       <div className="team-subheading">
         <p className="eyebrow">LEADERSHIP</p>
-        <h3>Branch leadership.</h3>
+        <h3>Core Team.</h3>
       </div>
 
       <div className="leadership-card-grid">

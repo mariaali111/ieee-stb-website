@@ -10,7 +10,7 @@ export const homeData = {
 
 export const announcements = [
   {
-    tag: "TECHFIEEEEST '26",
+    tag: "TECHFIEEEESTA '26",
     title: "IEEE Week 2026 is coming to ZHCET.",
     text:
       "A week of technical, creative and community activities is being prepared for the branch.",

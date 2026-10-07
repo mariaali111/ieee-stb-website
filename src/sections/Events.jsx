@@ -11,8 +11,7 @@ export default function Events({ onSelectEvent }) {
         </div>
 
         <p className="section-intro">
-          Event cards now show the key details at a glance — including date and venue — while the
-          full card opens for more information.
+          Join us for a week of engaging events, technical activities, and exciting opportunities as we celebrate IEEE Week.
         </p>
       </div>
 

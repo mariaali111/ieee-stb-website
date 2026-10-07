@@ -10,7 +10,7 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Team from "./sections/Team";
 import Events from "./sections/Events";
-import Techfieeest26 from "./sections/Techfieeest26";
+import Techfieeeesta26 from "./sections/Techfieeeesta26";
 import Membership from "./sections/Membership";
 //import Gallery from "./sections/Gallery";
 import Contact from "./sections/Contact";
@@ -66,7 +66,7 @@ export default function App() {
         <About />
         <Team />
         <Events onSelectEvent={setSelectedEvent} />
-        <Techfieeest26 />
+        <Techfieeeesta26 />
         <Membership />
         {/*Gallery onOpenImage={setLightboxImage}*/}
         <Contact />
