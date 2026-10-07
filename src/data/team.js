@@ -36,7 +36,8 @@ export const teams = [
       "Zainab Khan", 
       "Kunal Varshney",
       "Ashutosh Gautam", 
-      "Tanishka Singh"
+      "Tanishka Singh",
+      "Md Adnan"
     ],
   },
   {
@@ -74,7 +75,6 @@ export const teams = [
       "Waleed Qazi",
       "Mohammad Mubashshir Rizvi",
       "Mohammad Mudassir Safir",
-      "Kashif Ehsan Hashmi",
     ],
   },
   {
@@ -123,7 +123,6 @@ export const teams = [
     name: "Volunteer Corps",
     lead: null,
     members: [
-      "Md Mubashir",
       "Tanishka Bansal",
     ],
   },
