@@ -40,32 +40,42 @@ export const teams = [
     ],
   },
   {
-    name: "Workshop and Project Cell",
-    lead: "Md Zeeshan Alam",
-    members: [
-      "Ritika Gupta",
-      "Afraz Ullah Khan",
-      "Rehan Sheikh",
-      "Shaba Bano",
-      "Shaaz Ahmad",
-      "Ayaan Ansari",
-      "Hamid Ansari",
-    ],
-  },
-  {
     name: "Editorial",
     lead: "Jafar Abbas Khan",
-    members: ["Jafar Abbas", "Eshu Varshney"],
+    members: ["Shruti Shandilya", "Eshu Varshney"],
   },
   {
     name: "Graphics Core",
     lead: "Asna Mirza",
-    members: ["Zara Peerzada", "Nadir Ahmad","Zainul Abideen"],
+    members: [
+      "Zara Peerzada", 
+      "Yaseera",
+      "Nadir Ahmad", 
+      "Zainul Abideen", 
+      "Jannat Sharma",
+      "Nuwaira Noor",
+      "Bhoomi Varshney",
+    ],
   },
   {
     name: "Event Management",
     lead: "Sakshi Gaur",
-    members: ["Sakshi Gaur"],
+    members: ["Afeefa Kaleem", "Ananya Rajput", "Sania Zehra Naqvi"],
+  },
+  {
+    name: "Industry Relations",
+    lead: "Ahmad Zakariya",
+    members: ["Umaimah Mushtaq"],
+  },
+  {
+    name: "Outreach & Membership",
+    lead: "Kashif Ehsan Hashmi",
+    members: [
+      "Waleed Qazi",
+      "Mohammad Mubashshir Rizvi",
+      "Mohammad Mudassir Safir",
+      "Kashif Ehsan Hashmi",
+    ],
   },
   {
     name: "Public Relations",
@@ -73,8 +83,40 @@ export const teams = [
     members: [
       "Astha Mittal",
       "Saliha Khan",
+      "Manar Khan",
+      "Hania Kashif",
       "Adeeba Malik",
+      "Mohammad Hamza Kamran Khan",
       "Ayesha Mazhar",
+    ],
+  },
+  {
+    name: "Workshop and Project Cell",
+    lead: "Md Zeeshan Alam",
+    members: [
+      "Ritika Gupta",
+      "Afraz Ullah Khan",
+      "Mohd Luqman",
+      "Rehan Sheikh",
+      "Shaba Bano",
+      "Mohd Uzaid",
+      "Shaaz Ahmad",
+      "Ayaan Ansari",
+      "Md Hamid Ansari",
+      "Falaq Iqbal",
+    ],
+  },
+  {
+    name: "Game Development Guild",
+    lead: "Mohammad Sameer",
+    members: [
+      "Mohammad Anzaar Farman",
+      "Kumud Saraswat",
+      "Saim Farooqi",
+      "Ziyad Ahmad Khan",
+      "Mohammad Fauzan",
+      "Hammad Aslam Khan",
+      "Abdul Basit",
     ],
   },
   {
@@ -83,13 +125,6 @@ export const teams = [
     members: [
       "Md Mubashir",
       "Tanishka Bansal",
-      "Bhoomi Varshney",
     ],
   },
-];
-
-export const leadOnlyCells = [
-  { name: "Industry Relations", lead: "Ahmad Zakariya" },
-  { name: "Outreach & Membership", lead: "Kashif Ehsan Hashmi" },
-  { name: "Game Development Guild", lead: "Mohammad Sameer" },
 ];

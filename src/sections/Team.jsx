@@ -22,12 +22,12 @@ export default function Team() {
       <div className="section-heading split-heading">
         <div>
           <p className="eyebrow">OUR TEAM</p>
-          <h2>People behind the branch.</h2>
+          <h2>People behind the club.</h2>
         </div>
 
         <div className="team-intro-copy">
           <p className="section-intro">
-            Selected office bearers, cell leads and working-group members for the academic session.
+            Selected office bearers, team leads and working-group members for the academic session.
           </p>
           <p className="team-official-note">
             Official team selection · Academic Session {branchInfo.academicSession} · Notice dated{" "}
@@ -49,15 +49,14 @@ export default function Team() {
             <div>
               <h3>{person.name}</h3>
               <p>{person.role}</p>
-              <span>IEEE STB ZHCET · AMU</span>
             </div>
           </article>
         ))}
       </div>
 
-      {/* CELL LEADS */}
+      {/* TEAM LEADS */}
       <div className="team-subheading">
-        <p className="eyebrow">CELL LEADS</p>
+        <p className="eyebrow">TEAM LEADS</p>
         <h3>Leads across the branch.</h3>
       </div>
 
@@ -68,7 +67,6 @@ export default function Team() {
             <div>
               <h3>{person.name}</h3>
               <p>{person.role}</p>
-              <span>{person.role.replace(" Lead", "")}</span>
             </div>
             <ArrowUpRight className="card-arrow" size={17} />
           </article>
@@ -87,8 +85,7 @@ export default function Team() {
             <PersonImage name={member} />
             <div>
               <h3>{member}</h3>
-              <p>Cell Member</p>
-              <span>{cell}</span>
+              <p>{cell}</p>
             </div>
             <ArrowUpRight className="card-arrow" size={17} />
           </button>
