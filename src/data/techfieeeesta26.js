@@ -8,13 +8,14 @@ export const techfieeeestaData = {
 };
 
 export const techFiestaSchedule = [
-  ["04 Oct", "Treasure Hunt: Pirates’ Quest + Chess Tournament", "ZHCET Campus / Venue to be confirmed"],
-  ["05 Oct", "Details Coming Soon", "—"],
-  ["06 Oct", "Hack-IEEE Hackathon — Day 1", "ZHCET Auditorium & Labs"],
-  ["07 Oct", "Quizverse + Pitch x Stick + Hack-IEEE Hackathon — Day 2", "Venue to be confirmed"],
-  ["08 Oct", "Heritage Walk + Hack-IEEE Hackathon — Day 3", "Venue to be confirmed"],
-  ["09 Oct", "Gaming Tournament", "Venue to be confirmed"],
-  ["10 Oct", "Details Coming Soon", "—"],
-  ["11 Oct", "Build Your Own Game Console", "Venue to be confirmed"],
+  ["04 Oct", "Treasure Hunt: Pirates’ Quest", "Electrical Lawn"],
+  ["05 Oct", "Chess Tournament", "CGRE"],
+  ["06 Oct", "Hackathon Opening", "ML-12"],
+  ["07 Oct", "Quizverse + Pitch x Stick + Hackacthon Presentation", "Venue to be confirmed"],
+  ["08 Oct", "Hackathon Submission", "Online"],
+  ["09 Oct", "Heritage Walk", "Venue to be confirmed"],
+  ["10 Oct", "Gaming Tournament", "Venue to be confirmed"],
+  ["10 Oct", "Heritage Walk", "AMU Campus"],
+  ["11 Oct", "Retro Arcade Game Console Workshop", "Venue to be confirmed"],
   ["12 Oct", "Felicitation Ceremony", "Venue to be confirmed"],
 ];

@@ -3,15 +3,15 @@ export const events = [
     number: "01",
     category: "TECHFIEEEESTA '26",
     title: "Treasure Hunt: Pirates’ Quest",
-    date: "04 October 2026",
-    location: "ZHCET Campus",
+    date: "postponed till further notice",
+    location: "Electrical Lawn",
     description:
       "A themed treasure hunt built around clues, teamwork and a pirate-inspired quest across campus.",
     status: "Registrations open",
     image: "/events/treasure-hunt-pirates-quest.jpg",
     details: [
-      "Date: 4 October 2026",
-      "Venue: ZHCET Campus",
+      "Date: postponed till further notice",
+      "Venue: Electrical Lawn",
       "Organised by: Sakshi Gaur & Ananya Rajput",
       "Registration: scan the QR code on the poster or use the available registration link.",
     ],
@@ -23,15 +23,15 @@ export const events = [
     number: "02",
     category: "TECHFIEEEESTA '26",
     title: "Chess Tournament",
-    date: "04 October 2026",
-    location: "Venue to be confirmed",
+    date: "05 October 2026",
+    location: "CGRE",
     description:
       "A chess tournament presented with a comic-inspired battle theme and an on-poster registration QR code.",
     status: "Registration via poster",
     image: "/events/chess-tournament.jpg",
     details: [
-      "Date shown on poster: 4 October 2026",
-      "Venue: To be confirmed",
+      "Date shown on poster: 5 October 2026",
+      "Venue: CGRE",
       "Registration: scan the QR code on the poster.",
     ],
     sourceNote:
@@ -42,14 +42,14 @@ export const events = [
     category: "TECHFIEEEESTA '26",
     title: "Hack-IEEE Hackathon — 48 Hours",
     date: "06–08 October 2026",
-    location: "ZHCET Auditorium & Labs",
+    location: "ML-12",
     description:
       "A 48-hour hackathon bringing together curious minds, bold ideas and real solutions to build, collaborate and turn ideas into impact.",
     status: "Registration via poster",
     image: "/events/hack-ieee-hackathon.jpg",
     details: [
       "Dates: 6–8 October 2026",
-      "Venue: ZHCET Auditorium & Labs",
+      "Venue: ML-12",
       "Duration: 48 hours",
       "Registration: scan the QR code on the poster.",
       "Organised by: Sadia Peerzada & Umaimah Mushtaq",
@@ -93,21 +93,6 @@ export const events = [
   {
     number: "06",
     category: "TECHFIEEEESTA '26",
-    title: "Heritage Walk + Pitch Competition",
-    date: "08 October 2026",
-    location: "Venue to be confirmed",
-    description:
-      "A day combining a Heritage Walk with a Pitch Competition, as listed in the IEEE Week schedule.",
-    status: "Schedule announced",
-    details: [
-      "Date: 8 October 2026",
-      "Venue: To be confirmed",
-      "Registration and detailed instructions: coming soon.",
-    ],
-  },
-  {
-    number: "07",
-    category: "TECHFIEEEESTA '26",
     title: "Gaming Tournament",
     date: "09 October 2026",
     location: "Venue to be confirmed",
@@ -122,9 +107,24 @@ export const events = [
     ],
   },
   {
+    number: "07",
+    category: "TECHFIEEEESTA '26",
+    title: "Heritage Walk",
+    date: "10 October 2026",
+    location: "AMU Campus",
+    description:
+      "A day of Heritage Walk  as listed in the IEEE Week schedule.",
+    status: "Schedule announced",
+    details: [
+      "Date: 10 October 2026",
+      "Venue: AMU Campus",
+      "Registration and detailed instructions: coming soon.",
+    ],
+  },
+  {
     number: "08",
     category: "TECHFIEEEESTA '26",
-    title: "Build Your Own Game Console",
+    title: "Retro Arcade Game Console Workshop",
     date: "11 October 2026",
     location: "Venue to be confirmed",
     description:
